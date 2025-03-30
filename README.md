@@ -1,5 +1,5 @@
 
-# README: Customization Choices in Task Management Board
+Customization Choices in Task Management Board
 
 ## 1. **Added ‘Testing’ Column**
    - Purpose: To align with QA (Quality Assurance) requirements and ensure tasks are properly tested before deployment.
