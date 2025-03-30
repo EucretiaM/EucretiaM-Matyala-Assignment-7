@@ -1,0 +1,1 @@
+I learnt that system design and system development need extensive reseach on how use needs or conceptual ideas would be trasnformed into the real-life system. User requirements are huge when it come to system design. One has to do an extensive research otherwise the system may not serve what it was develope for.
