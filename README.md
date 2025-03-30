@@ -1,4 +1,4 @@
-Customization Choices in Task Management Board  
+Custom Kanban Board Creation  
 
 ## 1. **Added ‘Testing’ Column**  
    - **Purpose**: To align with QA (Quality Assurance) requirements and ensure tasks are properly tested before deployment.  
