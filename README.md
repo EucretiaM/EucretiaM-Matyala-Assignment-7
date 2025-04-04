@@ -1,98 +1,155 @@
-# Introduction to the Kanban Board Templates
+# Math Booster
 
-In agile development and project management, Kanban boards play a crucial role in visualizing workflow, tracking tasks, and improving efficiency. Different templates exist to cater to various team needs, including basic task tracking, automated workflows, and team planning. Below is a structured comparison of these Kanban board templates, highlighting their features and statuses.
+## Introduction
+Math Booster is a web and app-based platform designed to help primary and high school learners improve their mathematics performance. The system addresses poor mathematics marks at the primary school level and the high dropout rate from Grade 10 to Grade 12. Math Booster provides interactive learning tools, AI-powered assistance, and real-time teacher-learner engagement, all within a secure and user-friendly platform.
 
-## Overview of the Kanban Board Templates
+## Stakeholder Concerns
+### **Key Stakeholders and Their Concerns**
+- **Students:** Need easy access to learning materials, feedback, and a safe communication platform.
+- **Teachers:** Require tools to upload assignments, track performance, and analyze learner progress.
+- **Parents:** Want visibility into their child’s progress and assurance of a safe digital environment.
+- **Administrators:** Concerned with secure access control, compliance with regulations, and efficient user management.
+- **Developers:** Need a scalable, high-performance system that integrates AI and databases effectively.
+- **Education Officials:** Expect alignment with the curriculum and measurable learning improvements.
 
-The Kanban Board system provides different templates to manage project tasks effectively. Each template serves a unique purpose and provides a clear visualization of task progress. The three primary templates are:
+## Functional Requirements
+1. **User Authentication**
+   - Secure login/registration via third-party API
+   - Role-based access (teachers vs learners)
 
-### 1. **Basic Kanban**
-- Designed for simple task management with three main columns: Todo, In Progress, and Done.
-- Best suited for small teams or personal projects.
-- Provides manual task movement across the board.
+2. **Assignment Management**
+   - Teachers can upload assignments
+   - Learners can submit assignments
+   - Notifications for new tasks
 
-### 2. **Automated Kanban**
-- Integrates automation for workflow management.
-- Supports task assignments, due dates, and status updates through predefined rules.
-- Ideal for teams requiring efficiency in tracking and minimizing manual effort.
+3. **Marking and Feedback**
+   - Teachers can evaluate work within the platform
+   - Feedback and memos visible in student profiles
 
-### 3. **Team Planning Kanban**
-- Designed for collaborative projects with multiple team members.
-- Supports detailed backlog management and prioritization.
-- Enhances visibility of team progress across different stages.
+4. **Performance Tracking**
+   - Graphical performance analytics
+   - AI-generated performance recommendations
 
-## Key Status Categories
+5. **Communication**
+   - Secure real-time chat (no external platforms like WhatsApp)
+   
+6. **Leaderboards**
+   - Display top-performing learners
 
-| Status      | Description                          | Task Count |
-|------------|----------------------------------|------------|
-| **Todo**    | Tasks that have not been started yet. | 0          |
-| **In Progress** | Tasks currently being worked on.  | 0          |
-| **Done**    | Tasks that have been completed.    | 0          |
+7. **AI-Powered Search**
+   - AI-assisted search for math-related topics and questions
 
-## Key Objectives
+8. **Math Editor**
+   - Built-in math symbol editor or VS Code-style interface for working with equations
 
-The primary objectives of these Kanban templates are:
+## Non-Functional Requirements
+- **Security:** End-to-end encryption, POPIA & GDPR compliance
+- **Performance:** Fast response times (<2 seconds load time)
+- **Scalability:** Designed for growing user and content volume
+- **Reliability:** 99.9% uptime with automatic backups
+- **Usability:** Mobile-responsive, intuitive UI
+- **Maintainability:** Modular design, well-documented code
+- **Hosting:** Secure cloud-based infrastructure (AWS/Azure/Firebase)
 
-- **Enhance Workflow Visibility**: Provide clear visualization of task status.
-- **Improve Task Management**: Ensure efficient tracking and prioritization.
-- **Facilitate Collaboration**: Support teamwork and transparency.
-- **Streamline Automation**: Reduce manual workload with automated status updates.
+---
 
-## Target Audience
-These templates are designed for:
+# **Kanban Board Templates**
 
-- **Project Managers**: Who need to track team progress efficiently.
-- **Agile Teams**: Looking for structured task visualization.
-- **Developers & Designers**: Managing iterative tasks in a project lifecycle.
-- **Freelancers & Small Teams**: Seeking a lightweight, easy-to-use task board.
+## **Introduction to the Kanban Board Templates**
+In agile development and project management, Kanban boards help visualize workflow, track tasks, and improve efficiency. Different templates cater to various team needs, including basic task tracking, automated workflows, and team planning. Below is a structured comparison of these Kanban board templates.
 
-## Documentation
+## **Overview of the Kanban Board Templates**
+1. **Basic Kanban**
+   - Simple task management with three main columns: **Todo, In Progress, Done**
+   - Suitable for small teams or personal projects
+   - Manual task movement
 
-### User Documentation
-- Getting Started Guide - How to set up and use Kanban templates.
-- Task Management Guide - Best practices for managing tasks effectively.
+2. **Automated Kanban**
+   - Workflow automation with task assignments and due dates
+   - Predefined rules for status updates
+   - Ideal for teams that need efficient task tracking
 
-### Developer Documentation
-- API Reference - Endpoints for interacting with Kanban boards.
-- Customization Guide - Modifying templates to fit specific workflows.
+3. **Team Planning Kanban**
+   - Supports collaborative projects with multiple members
+   - Includes detailed backlog management and prioritization
+   - Enhances visibility across different development stages
 
-### Specification Documentation
-- System Architecture - Overview of the Kanban board structure.
-- Data Models - Database schema and workflow representations.
+### **Key Status Categories**
+| Status        | Description                              | Task Count |
+|--------------|----------------------------------|------------|
+| Todo        | Tasks not yet started                 | 0          |
+| In Progress | Tasks currently being worked on       | 0          |
+| Done        | Completed tasks                       | 0          |
 
-### Additional Resources
-- Performance Benchmarks - Metrics for board responsiveness and efficiency.
-- Change Log - Version history and updates.
+## **Key Objectives**
+- **Enhance Workflow Visibility:** Clear task status tracking
+- **Improve Task Management:** Efficient tracking and prioritization
+- **Facilitate Collaboration:** Supports teamwork and transparency
+- **Streamline Automation:** Reduces manual workload through automated updates
 
-Custom Kanban Board Creation  
+## **Target Audience**
+- **Project Managers** – Need efficient team tracking
+- **Agile Teams** – Require structured task visualization
+- **Developers & Designers** – Manage iterative tasks
+- **Freelancers & Small Teams** – Benefit from a lightweight task board
 
-## 1. **Added ‘Testing’ Column**  
-   - **Purpose**: To align with QA (Quality Assurance) requirements and ensure tasks are properly tested before deployment.  
-   - **Benefit**: Provides a clear distinction between completed development work and tasks that need verification before release.  
+---
 
-## 2. **Added ‘Block’ Column**  
-   - **Purpose**: To track tasks that are currently blocked due to dependencies, issues, or missing information.  
-   - **Benefit**: Helps in identifying roadblocks early, ensuring efficient problem resolution and smoother workflow progression.  
+## **Documentation**
+### **User Documentation**
+- **Getting Started Guide:** Instructions for setting up and using Kanban templates
+- **Task Management Guide:** Best practices for effective task handling
 
-## 3. **Separated ‘Done’ from ‘Testing’**  
-   - **Purpose**: To track tasks that have been implemented but require validation before being fully marked as completed.  
-   - **Benefit**: Helps in maintaining accountability and preventing premature closure of tasks.  
+### **Developer Documentation**
+- **API Reference:** Endpoints for interacting with Kanban boards
+- **Customization Guide:** Steps to modify templates for specific workflows
 
-## 4. **Maintained ‘Todo’ and ‘In Progress’ Columns**  
-   - **Purpose**: To organize tasks based on their current development state.  
-   - **Benefit**: Provides a clear workflow from ideation to execution.  
+### **Specification Documentation**
+- **System Architecture:** Overview of the Kanban board structure
+- **Data Models:** Database schema and workflow representations
 
-## 5. **Task Categorization Using Draft Labels**  
-   - **Purpose**: To indicate that certain features are still in the design or initial development phase.  
-   - **Benefit**: Ensures visibility into early-stage tasks before they move into active development.  
+### **Additional Resources**
+- **Performance Benchmarks:** Metrics for board efficiency
+- **Change Log:** Version history and updates
 
-## 6. **Explicit Task Descriptions**  
-   - **Purpose**: To provide clarity on each development task (e.g., ‘Develop upload button’ or ‘Emailing API’).  
-   - **Benefit**: Improves collaboration by making tasks easy to understand.  
+## **Custom Kanban Board Creation**
+1. **Added ‘Testing’ Column**
+   - **Purpose:** Align with QA requirements for verification before deployment
+   - **Benefit:** Ensures tasks are properly tested before release
 
-## 7. **Linked Issues**  
-   - **Purpose**: To ensure development tasks align with user story requirements.  
-   - **Linked Issue**: *"User Story Creation"* from **Assignment 6** serves as a reference for defining and aligning tasks with required user stories.  
-   - **Benefit**: Helps track progress against initial requirements and ensures all features are built as per defined user needs.  
+2. **Added ‘Block’ Column**
+   - **Purpose:** Track tasks with dependencies or missing information
+   - **Benefit:** Identifies roadblocks early for smoother workflows
 
-These customizations improve workflow visibility, streamline QA processes, and provide a structured approach to handling blocked tasks efficiently.  
+3. **Separated ‘Done’ from ‘Testing’**
+   - **Purpose:** Distinguish implemented tasks from those needing validation
+   - **Benefit:** Prevents premature closure of tasks
+
+4. **Maintained ‘Todo’ and ‘In Progress’ Columns**
+   - **Purpose:** Organize tasks based on development state
+   - **Benefit:** Provides a structured workflow
+
+5. **Task Categorization Using Draft Labels**
+   - **Purpose:** Indicate early-stage tasks before active development
+   - **Benefit:** Improves visibility into initial project phases
+
+6. **Explicit Task Descriptions**
+   - **Purpose:** Provide clarity on task requirements (e.g., ‘Develop upload button’)
+   - **Benefit:** Enhances collaboration and understanding
+
+7. **Linked Issues**
+   - **Purpose:** Align development tasks with user story requirements
+   - **Benefit:** Tracks progress against initial user needs
+
+These customizations enhance workflow visibility, streamline QA processes, and improve efficiency in handling blocked tasks.
+
+---
+
+## **Contributors**
+- Math Booster Development Team
+- Agile Project Management Experts
+
+## **License**
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
