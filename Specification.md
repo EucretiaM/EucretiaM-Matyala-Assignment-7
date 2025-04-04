@@ -1,4 +1,4 @@
-**Specification Document(Specification.md)**
+**Specification.md**
 
 **2.2.1**
 
